@@ -674,3 +674,258 @@
 2018-07-08 17:48:59,742 INFO 12220 [egg:core] dump config after load, 94ms
 2018-07-08 17:48:59,878 INFO 12220 [egg-watcher:app] watcher start success
 2018-07-08 17:48:59,975 INFO 12220 [egg:core] dump config after ready, 76ms
+2018-07-09 21:25:20,167 INFO 8700 [egg:logger] init all loggers with options: {"dir":"F:\\vue-study\\koa-demo\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-09 21:25:20,254 INFO 8700 [egg-schedule]: register schedule F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-09 21:25:20,254 INFO 8700 [egg-schedule]: register schedule F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-09 21:25:20,495 INFO 8700 [egg-static] starting static serve /public/ -> F:\vue-study\koa-demo\app\public
+2018-07-09 21:25:20,503 INFO 8700 [egg-security] use csrf middleware
+2018-07-09 21:25:20,506 INFO 8700 [egg-security] use methodnoallow middleware
+2018-07-09 21:25:20,507 INFO 8700 [egg-security] use noopen middleware
+2018-07-09 21:25:20,508 INFO 8700 [egg-security] use nosniff middleware
+2018-07-09 21:25:20,510 INFO 8700 [egg-security] use xssProtection middleware
+2018-07-09 21:25:20,511 INFO 8700 [egg-security] use xframe middleware
+2018-07-09 21:25:20,512 INFO 8700 [egg-security] use dta middleware
+2018-07-09 21:25:20,512 INFO 8700 [egg-security] compose 7 middlewares into one security middleware
+2018-07-09 21:25:20,543 INFO 8700 [egg:core] dump config after load, 18ms
+2018-07-09 21:25:20,590 INFO 8700 [egg-watcher:app] watcher start success
+2018-07-09 21:25:20,616 INFO 8700 [egg:core] dump config after ready, 22ms
+2018-07-09 21:28:19,215 INFO 12776 [egg:logger] init all loggers with options: {"dir":"F:\\vue-study\\koa-demo\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-09 21:28:19,296 INFO 12776 [egg-schedule]: register schedule F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-09 21:28:19,296 INFO 12776 [egg-schedule]: register schedule F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-09 21:28:19,460 INFO 12776 [egg-static] starting static serve /public/ -> F:\vue-study\koa-demo\app\public
+2018-07-09 21:28:19,468 INFO 12776 [egg-security] use csrf middleware
+2018-07-09 21:28:19,471 INFO 12776 [egg-security] use methodnoallow middleware
+2018-07-09 21:28:19,473 INFO 12776 [egg-security] use noopen middleware
+2018-07-09 21:28:19,475 INFO 12776 [egg-security] use nosniff middleware
+2018-07-09 21:28:19,476 INFO 12776 [egg-security] use xssProtection middleware
+2018-07-09 21:28:19,478 INFO 12776 [egg-security] use xframe middleware
+2018-07-09 21:28:19,479 INFO 12776 [egg-security] use dta middleware
+2018-07-09 21:28:19,479 INFO 12776 [egg-security] compose 7 middlewares into one security middleware
+2018-07-09 21:28:19,513 INFO 12776 [egg:core] dump config after load, 21ms
+2018-07-09 21:28:19,543 INFO 12776 [egg-watcher:app] watcher start success
+2018-07-09 21:28:19,567 INFO 12776 [egg:core] dump config after ready, 20ms
+2018-07-09 21:28:24,309 INFO 4452 [egg:logger] init all loggers with options: {"dir":"F:\\vue-study\\koa-demo\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-09 21:28:24,399 INFO 4452 [egg-schedule]: register schedule F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-09 21:28:24,399 INFO 4452 [egg-schedule]: register schedule F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-09 21:28:24,565 INFO 4452 [egg-static] starting static serve /public/ -> F:\vue-study\koa-demo\app\public
+2018-07-09 21:28:24,572 INFO 4452 [egg-security] use csrf middleware
+2018-07-09 21:28:24,575 INFO 4452 [egg-security] use methodnoallow middleware
+2018-07-09 21:28:24,576 INFO 4452 [egg-security] use noopen middleware
+2018-07-09 21:28:24,577 INFO 4452 [egg-security] use nosniff middleware
+2018-07-09 21:28:24,578 INFO 4452 [egg-security] use xssProtection middleware
+2018-07-09 21:28:24,580 INFO 4452 [egg-security] use xframe middleware
+2018-07-09 21:28:24,582 INFO 4452 [egg-security] use dta middleware
+2018-07-09 21:28:24,582 INFO 4452 [egg-security] compose 7 middlewares into one security middleware
+2018-07-09 21:28:24,619 INFO 4452 [egg:core] dump config after load, 26ms
+2018-07-09 21:28:24,657 INFO 4452 [egg-watcher:app] watcher start success
+2018-07-09 21:28:24,679 INFO 4452 [egg:core] dump config after ready, 17ms
+2018-07-09 21:45:36,775 INFO 7308 [egg:logger] init all loggers with options: {"dir":"F:\\vue-study\\koa-demo\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-09 21:45:37,194 INFO 7308 [egg-schedule]: register schedule F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-09 21:45:37,194 INFO 7308 [egg-schedule]: register schedule F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-09 21:45:37,752 INFO 7308 [egg-static] starting static serve /public/ -> F:\vue-study\koa-demo\app\public
+2018-07-09 21:45:37,759 INFO 7308 [egg-security] use csrf middleware
+2018-07-09 21:45:37,761 INFO 7308 [egg-security] use methodnoallow middleware
+2018-07-09 21:45:37,763 INFO 7308 [egg-security] use noopen middleware
+2018-07-09 21:45:37,764 INFO 7308 [egg-security] use nosniff middleware
+2018-07-09 21:45:37,766 INFO 7308 [egg-security] use xssProtection middleware
+2018-07-09 21:45:37,767 INFO 7308 [egg-security] use xframe middleware
+2018-07-09 21:45:37,769 INFO 7308 [egg-security] use dta middleware
+2018-07-09 21:45:37,769 INFO 7308 [egg-security] compose 7 middlewares into one security middleware
+2018-07-09 21:45:37,798 INFO 7308 [egg:core] dump config after load, 17ms
+2018-07-09 21:45:37,830 INFO 7308 [egg-watcher:app] watcher start success
+2018-07-09 21:45:37,856 INFO 7308 [egg:core] dump config after ready, 21ms
+2018-07-09 21:45:49,898 INFO 6676 [egg:logger] init all loggers with options: {"dir":"F:\\vue-study\\koa-demo\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-09 21:45:50,269 INFO 6676 [egg-schedule]: register schedule F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-09 21:45:50,269 INFO 6676 [egg-schedule]: register schedule F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-09 21:45:50,679 INFO 6676 [egg-static] starting static serve /public/ -> F:\vue-study\koa-demo\app\public
+2018-07-09 21:45:50,686 INFO 6676 [egg-security] use csrf middleware
+2018-07-09 21:45:50,688 INFO 6676 [egg-security] use methodnoallow middleware
+2018-07-09 21:45:50,690 INFO 6676 [egg-security] use noopen middleware
+2018-07-09 21:45:50,691 INFO 6676 [egg-security] use nosniff middleware
+2018-07-09 21:45:50,693 INFO 6676 [egg-security] use xssProtection middleware
+2018-07-09 21:45:50,694 INFO 6676 [egg-security] use xframe middleware
+2018-07-09 21:45:50,696 INFO 6676 [egg-security] use dta middleware
+2018-07-09 21:45:50,696 INFO 6676 [egg-security] compose 7 middlewares into one security middleware
+2018-07-09 21:45:50,732 INFO 6676 [egg:core] dump config after load, 25ms
+2018-07-09 21:45:50,763 INFO 6676 [egg-watcher:app] watcher start success
+2018-07-09 21:45:50,786 INFO 6676 [egg:core] dump config after ready, 18ms
+2018-07-09 21:45:53,847 INFO 3952 [egg:logger] init all loggers with options: {"dir":"F:\\vue-study\\koa-demo\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-09 21:45:53,927 INFO 3952 [egg-schedule]: register schedule F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-09 21:45:53,927 INFO 3952 [egg-schedule]: register schedule F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-09 21:45:54,085 INFO 3952 [egg-static] starting static serve /public/ -> F:\vue-study\koa-demo\app\public
+2018-07-09 21:45:54,092 INFO 3952 [egg-security] use csrf middleware
+2018-07-09 21:45:54,095 INFO 3952 [egg-security] use methodnoallow middleware
+2018-07-09 21:45:54,096 INFO 3952 [egg-security] use noopen middleware
+2018-07-09 21:45:54,097 INFO 3952 [egg-security] use nosniff middleware
+2018-07-09 21:45:54,099 INFO 3952 [egg-security] use xssProtection middleware
+2018-07-09 21:45:54,100 INFO 3952 [egg-security] use xframe middleware
+2018-07-09 21:45:54,101 INFO 3952 [egg-security] use dta middleware
+2018-07-09 21:45:54,101 INFO 3952 [egg-security] compose 7 middlewares into one security middleware
+2018-07-09 21:45:54,130 INFO 3952 [egg:core] dump config after load, 17ms
+2018-07-09 21:45:54,161 INFO 3952 [egg-watcher:app] watcher start success
+2018-07-09 21:45:54,210 INFO 3952 [egg:core] dump config after ready, 45ms
+2018-07-09 21:47:10,356 INFO 12652 [egg:logger] init all loggers with options: {"dir":"F:\\vue-study\\koa-demo\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-09 21:47:10,447 INFO 12652 [egg-schedule]: register schedule F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-09 21:47:10,447 INFO 12652 [egg-schedule]: register schedule F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-09 21:47:10,622 INFO 12652 [egg-static] starting static serve /public/ -> F:\vue-study\koa-demo\app\public
+2018-07-09 21:47:10,629 INFO 12652 [egg-security] use csrf middleware
+2018-07-09 21:47:10,631 INFO 12652 [egg-security] use methodnoallow middleware
+2018-07-09 21:47:10,633 INFO 12652 [egg-security] use noopen middleware
+2018-07-09 21:47:10,634 INFO 12652 [egg-security] use nosniff middleware
+2018-07-09 21:47:10,635 INFO 12652 [egg-security] use xssProtection middleware
+2018-07-09 21:47:10,637 INFO 12652 [egg-security] use xframe middleware
+2018-07-09 21:47:10,638 INFO 12652 [egg-security] use dta middleware
+2018-07-09 21:47:10,638 INFO 12652 [egg-security] compose 7 middlewares into one security middleware
+2018-07-09 21:47:10,668 INFO 12652 [egg:core] dump config after load, 18ms
+2018-07-09 21:47:10,703 INFO 12652 [egg-watcher:app] watcher start success
+2018-07-09 21:47:10,755 INFO 12652 [egg:core] dump config after ready, 49ms
+2018-07-09 21:47:47,943 INFO 8416 [egg:logger] init all loggers with options: {"dir":"F:\\vue-study\\koa-demo\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-09 21:47:48,028 INFO 8416 [egg-schedule]: register schedule F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-09 21:47:48,028 INFO 8416 [egg-schedule]: register schedule F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-09 21:47:48,198 INFO 8416 [egg-static] starting static serve /public/ -> F:\vue-study\koa-demo\app\public
+2018-07-09 21:47:48,205 INFO 8416 [egg-security] use csrf middleware
+2018-07-09 21:47:48,208 INFO 8416 [egg-security] use methodnoallow middleware
+2018-07-09 21:47:48,209 INFO 8416 [egg-security] use noopen middleware
+2018-07-09 21:47:48,210 INFO 8416 [egg-security] use nosniff middleware
+2018-07-09 21:47:48,212 INFO 8416 [egg-security] use xssProtection middleware
+2018-07-09 21:47:48,213 INFO 8416 [egg-security] use xframe middleware
+2018-07-09 21:47:48,214 INFO 8416 [egg-security] use dta middleware
+2018-07-09 21:47:48,214 INFO 8416 [egg-security] compose 7 middlewares into one security middleware
+2018-07-09 21:47:48,244 INFO 8416 [egg:core] dump config after load, 18ms
+2018-07-09 21:47:48,273 INFO 8416 [egg-watcher:app] watcher start success
+2018-07-09 21:47:48,300 INFO 8416 [egg:core] dump config after ready, 23ms
+2018-07-09 21:47:53,212 INFO 9916 [egg:logger] init all loggers with options: {"dir":"F:\\vue-study\\koa-demo\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-09 21:47:53,312 INFO 9916 [egg-schedule]: register schedule F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-09 21:47:53,312 INFO 9916 [egg-schedule]: register schedule F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-09 21:47:53,498 INFO 9916 [egg-static] starting static serve /public/ -> F:\vue-study\koa-demo\app\public
+2018-07-09 21:47:53,507 INFO 9916 [egg-security] use csrf middleware
+2018-07-09 21:47:53,510 INFO 9916 [egg-security] use methodnoallow middleware
+2018-07-09 21:47:53,511 INFO 9916 [egg-security] use noopen middleware
+2018-07-09 21:47:53,514 INFO 9916 [egg-security] use nosniff middleware
+2018-07-09 21:47:53,515 INFO 9916 [egg-security] use xssProtection middleware
+2018-07-09 21:47:53,516 INFO 9916 [egg-security] use xframe middleware
+2018-07-09 21:47:53,517 INFO 9916 [egg-security] use dta middleware
+2018-07-09 21:47:53,517 INFO 9916 [egg-security] compose 7 middlewares into one security middleware
+2018-07-09 21:47:53,554 INFO 9916 [egg:core] dump config after load, 21ms
+2018-07-09 21:47:53,605 INFO 9916 [egg-watcher:app] watcher start success
+2018-07-09 21:47:53,627 INFO 9916 [egg:core] dump config after ready, 17ms
+2018-07-09 21:48:46,894 INFO 9368 [egg:logger] init all loggers with options: {"dir":"F:\\vue-study\\koa-demo\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-09 21:48:46,988 INFO 9368 [egg-schedule]: register schedule F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-09 21:48:46,988 INFO 9368 [egg-schedule]: register schedule F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-09 21:48:47,156 INFO 9368 [egg-static] starting static serve /public/ -> F:\vue-study\koa-demo\app\public
+2018-07-09 21:48:47,166 INFO 9368 [egg-security] use csrf middleware
+2018-07-09 21:48:47,169 INFO 9368 [egg-security] use methodnoallow middleware
+2018-07-09 21:48:47,170 INFO 9368 [egg-security] use noopen middleware
+2018-07-09 21:48:47,172 INFO 9368 [egg-security] use nosniff middleware
+2018-07-09 21:48:47,173 INFO 9368 [egg-security] use xssProtection middleware
+2018-07-09 21:48:47,175 INFO 9368 [egg-security] use xframe middleware
+2018-07-09 21:48:47,176 INFO 9368 [egg-security] use dta middleware
+2018-07-09 21:48:47,176 INFO 9368 [egg-security] compose 7 middlewares into one security middleware
+2018-07-09 21:48:47,210 INFO 9368 [egg:core] dump config after load, 22ms
+2018-07-09 21:48:47,242 INFO 9368 [egg-watcher:app] watcher start success
+2018-07-09 21:48:47,271 INFO 9368 [egg:core] dump config after ready, 24ms
+2018-07-09 21:48:52,162 INFO 10364 [egg:logger] init all loggers with options: {"dir":"F:\\vue-study\\koa-demo\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-09 21:48:52,251 INFO 10364 [egg-schedule]: register schedule F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-09 21:48:52,251 INFO 10364 [egg-schedule]: register schedule F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-09 21:48:52,451 INFO 10364 [egg-static] starting static serve /public/ -> F:\vue-study\koa-demo\app\public
+2018-07-09 21:48:52,458 INFO 10364 [egg-security] use csrf middleware
+2018-07-09 21:48:52,461 INFO 10364 [egg-security] use methodnoallow middleware
+2018-07-09 21:48:52,462 INFO 10364 [egg-security] use noopen middleware
+2018-07-09 21:48:52,463 INFO 10364 [egg-security] use nosniff middleware
+2018-07-09 21:48:52,464 INFO 10364 [egg-security] use xssProtection middleware
+2018-07-09 21:48:52,465 INFO 10364 [egg-security] use xframe middleware
+2018-07-09 21:48:52,467 INFO 10364 [egg-security] use dta middleware
+2018-07-09 21:48:52,467 INFO 10364 [egg-security] compose 7 middlewares into one security middleware
+2018-07-09 21:48:52,494 INFO 10364 [egg:core] dump config after load, 17ms
+2018-07-09 21:48:52,528 INFO 10364 [egg-watcher:app] watcher start success
+2018-07-09 21:48:52,555 INFO 10364 [egg:core] dump config after ready, 21ms
+2018-07-09 21:55:55,274 INFO 11736 [egg:logger] init all loggers with options: {"dir":"F:\\vue-study\\koa-demo\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-09 21:55:55,352 INFO 11736 [egg-schedule]: register schedule F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-09 21:55:55,352 INFO 11736 [egg-schedule]: register schedule F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-09 21:55:55,522 INFO 11736 [egg-static] starting static serve /public/ -> F:\vue-study\koa-demo\app\public
+2018-07-09 21:55:55,529 INFO 11736 [egg-security] use csrf middleware
+2018-07-09 21:55:55,531 INFO 11736 [egg-security] use methodnoallow middleware
+2018-07-09 21:55:55,533 INFO 11736 [egg-security] use noopen middleware
+2018-07-09 21:55:55,534 INFO 11736 [egg-security] use nosniff middleware
+2018-07-09 21:55:55,535 INFO 11736 [egg-security] use xssProtection middleware
+2018-07-09 21:55:55,537 INFO 11736 [egg-security] use xframe middleware
+2018-07-09 21:55:55,538 INFO 11736 [egg-security] use dta middleware
+2018-07-09 21:55:55,538 INFO 11736 [egg-security] compose 7 middlewares into one security middleware
+2018-07-09 21:55:55,567 INFO 11736 [egg:core] dump config after load, 18ms
+2018-07-09 21:55:55,598 INFO 11736 [egg-watcher:app] watcher start success
+2018-07-09 21:55:55,625 INFO 11736 [egg:core] dump config after ready, 22ms
+2018-07-09 21:56:00,667 INFO 8476 [egg:logger] init all loggers with options: {"dir":"F:\\vue-study\\koa-demo\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-09 21:56:00,756 INFO 8476 [egg-schedule]: register schedule F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-09 21:56:00,756 INFO 8476 [egg-schedule]: register schedule F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-09 21:56:00,939 INFO 8476 [egg-static] starting static serve /public/ -> F:\vue-study\koa-demo\app\public
+2018-07-09 21:56:00,946 INFO 8476 [egg-security] use csrf middleware
+2018-07-09 21:56:00,949 INFO 8476 [egg-security] use methodnoallow middleware
+2018-07-09 21:56:00,950 INFO 8476 [egg-security] use noopen middleware
+2018-07-09 21:56:00,951 INFO 8476 [egg-security] use nosniff middleware
+2018-07-09 21:56:00,953 INFO 8476 [egg-security] use xssProtection middleware
+2018-07-09 21:56:00,954 INFO 8476 [egg-security] use xframe middleware
+2018-07-09 21:56:00,956 INFO 8476 [egg-security] use dta middleware
+2018-07-09 21:56:00,956 INFO 8476 [egg-security] compose 7 middlewares into one security middleware
+2018-07-09 21:56:00,991 INFO 8476 [egg:core] dump config after load, 22ms
+2018-07-09 21:56:01,027 INFO 8476 [egg-watcher:app] watcher start success
+2018-07-09 21:56:01,056 INFO 8476 [egg:core] dump config after ready, 24ms
+2018-07-09 21:56:46,624 INFO 6948 [egg:logger] init all loggers with options: {"dir":"F:\\vue-study\\koa-demo\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-09 21:56:46,839 INFO 6948 [egg-schedule]: register schedule F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-09 21:56:46,839 INFO 6948 [egg-schedule]: register schedule F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-09 21:56:47,026 INFO 6948 [egg-static] starting static serve /public/ -> F:\vue-study\koa-demo\app\public
+2018-07-09 21:56:47,032 INFO 6948 [egg-security] use csrf middleware
+2018-07-09 21:56:47,035 INFO 6948 [egg-security] use methodnoallow middleware
+2018-07-09 21:56:47,037 INFO 6948 [egg-security] use noopen middleware
+2018-07-09 21:56:47,038 INFO 6948 [egg-security] use nosniff middleware
+2018-07-09 21:56:47,039 INFO 6948 [egg-security] use xssProtection middleware
+2018-07-09 21:56:47,040 INFO 6948 [egg-security] use xframe middleware
+2018-07-09 21:56:47,042 INFO 6948 [egg-security] use dta middleware
+2018-07-09 21:56:47,042 INFO 6948 [egg-security] compose 7 middlewares into one security middleware
+2018-07-09 21:56:47,082 INFO 6948 [egg:core] dump config after load, 29ms
+2018-07-09 21:56:47,111 INFO 6948 [egg-watcher:app] watcher start success
+2018-07-09 21:56:47,130 INFO 6948 [egg:core] dump config after ready, 15ms
+2018-07-09 21:56:51,882 INFO 6336 [egg:logger] init all loggers with options: {"dir":"F:\\vue-study\\koa-demo\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-09 21:56:51,963 INFO 6336 [egg-schedule]: register schedule F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-09 21:56:51,963 INFO 6336 [egg-schedule]: register schedule F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-09 21:56:52,110 INFO 6336 [egg-static] starting static serve /public/ -> F:\vue-study\koa-demo\app\public
+2018-07-09 21:56:52,116 INFO 6336 [egg-security] use csrf middleware
+2018-07-09 21:56:52,118 INFO 6336 [egg-security] use methodnoallow middleware
+2018-07-09 21:56:52,120 INFO 6336 [egg-security] use noopen middleware
+2018-07-09 21:56:52,121 INFO 6336 [egg-security] use nosniff middleware
+2018-07-09 21:56:52,122 INFO 6336 [egg-security] use xssProtection middleware
+2018-07-09 21:56:52,123 INFO 6336 [egg-security] use xframe middleware
+2018-07-09 21:56:52,125 INFO 6336 [egg-security] use dta middleware
+2018-07-09 21:56:52,125 INFO 6336 [egg-security] compose 7 middlewares into one security middleware
+2018-07-09 21:56:52,152 INFO 6336 [egg:core] dump config after load, 16ms
+2018-07-09 21:56:52,182 INFO 6336 [egg-watcher:app] watcher start success
+2018-07-09 21:56:52,209 INFO 6336 [egg:core] dump config after ready, 22ms
+2018-07-09 21:58:55,044 INFO 2328 [egg:logger] init all loggers with options: {"dir":"F:\\vue-study\\koa-demo\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-09 21:58:55,140 INFO 2328 [egg-schedule]: register schedule F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-09 21:58:55,140 INFO 2328 [egg-schedule]: register schedule F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-09 21:58:55,333 INFO 2328 [egg-static] starting static serve /public/ -> F:\vue-study\koa-demo\app\public
+2018-07-09 21:58:55,339 INFO 2328 [egg-security] use csrf middleware
+2018-07-09 21:58:55,342 INFO 2328 [egg-security] use methodnoallow middleware
+2018-07-09 21:58:55,344 INFO 2328 [egg-security] use noopen middleware
+2018-07-09 21:58:55,345 INFO 2328 [egg-security] use nosniff middleware
+2018-07-09 21:58:55,346 INFO 2328 [egg-security] use xssProtection middleware
+2018-07-09 21:58:55,347 INFO 2328 [egg-security] use xframe middleware
+2018-07-09 21:58:55,349 INFO 2328 [egg-security] use dta middleware
+2018-07-09 21:58:55,349 INFO 2328 [egg-security] compose 7 middlewares into one security middleware
+2018-07-09 21:58:55,377 INFO 2328 [egg:core] dump config after load, 17ms
+2018-07-09 21:58:55,424 INFO 2328 [egg-watcher:app] watcher start success
+2018-07-09 21:58:55,454 INFO 2328 [egg:core] dump config after ready, 25ms
+2018-07-09 21:59:00,747 INFO 13156 [egg:logger] init all loggers with options: {"dir":"F:\\vue-study\\koa-demo\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-09 21:59:00,831 INFO 13156 [egg-schedule]: register schedule F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-09 21:59:00,832 INFO 13156 [egg-schedule]: register schedule F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-09 21:59:00,984 INFO 13156 [egg-static] starting static serve /public/ -> F:\vue-study\koa-demo\app\public
+2018-07-09 21:59:00,991 INFO 13156 [egg-security] use csrf middleware
+2018-07-09 21:59:00,993 INFO 13156 [egg-security] use methodnoallow middleware
+2018-07-09 21:59:00,995 INFO 13156 [egg-security] use noopen middleware
+2018-07-09 21:59:00,996 INFO 13156 [egg-security] use nosniff middleware
+2018-07-09 21:59:00,997 INFO 13156 [egg-security] use xssProtection middleware
+2018-07-09 21:59:00,998 INFO 13156 [egg-security] use xframe middleware
+2018-07-09 21:59:00,999 INFO 13156 [egg-security] use dta middleware
+2018-07-09 21:59:00,999 INFO 13156 [egg-security] compose 7 middlewares into one security middleware
+2018-07-09 21:59:01,052 INFO 13156 [egg:core] dump config after load, 32ms
+2018-07-09 21:59:01,090 INFO 13156 [egg-watcher:app] watcher start success
+2018-07-09 21:59:01,199 INFO 13156 [egg:core] dump config after ready, 105ms

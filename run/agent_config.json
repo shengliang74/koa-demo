@@ -72,7 +72,7 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "F:\\vue-study\\koa2\\egg-example\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "F:\\vue-study\\koa-demo\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
@@ -84,8 +84,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "F:\\vue-study\\koa2\\egg-example\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "F:\\vue-study\\koa2\\egg-example\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "F:\\vue-study\\koa-demo\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "F:\\vue-study\\koa-demo\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "multipart": {
@@ -109,7 +109,7 @@
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "F:\\vue-study\\koa2\\egg-example\\logs\\egg-example\\egg-schedule.log"
+        "file": "F:\\vue-study\\koa-demo\\logs\\egg-example\\egg-schedule.log"
       }
     },
     "logrotator": {
@@ -123,14 +123,14 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "F:\\vue-study\\koa2\\egg-example\\app\\public",
+      "dir": "F:\\vue-study\\koa-demo\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "F:\\vue-study\\koa2\\egg-example\\app\\view",
+      "root": "F:\\vue-study\\koa-demo\\app\\view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "nunjucks",
@@ -172,9 +172,9 @@
         "egg-bin": "^4.7.1"
       }
     },
-    "baseDir": "F:\\vue-study\\koa2\\egg-example",
+    "baseDir": "F:\\vue-study\\koa-demo",
     "HOME": "C:\\Users\\liang",
-    "rundir": "F:\\vue-study\\koa2\\egg-example\\run",
+    "rundir": "F:\\vue-study\\koa-demo\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -204,7 +204,7 @@
       }
     },
     "logger": {
-      "dir": "F:\\vue-study\\koa2\\egg-example\\logs\\egg-example",
+      "dir": "F:\\vue-study\\koa-demo\\logs\\egg-example",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -290,8 +290,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\vue-study\\koa2\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\vue-study\\koa2\\egg-example\\node_modules\\egg-session",
+      "from": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\vue-study\\koa-demo\\node_modules\\egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -303,8 +303,8 @@
         "session"
       ],
       "env": [],
-      "from": "F:\\vue-study\\koa2\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\vue-study\\koa2\\egg-example\\node_modules\\egg-security",
+      "from": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\vue-study\\koa-demo\\node_modules\\egg-security",
       "version": "2.2.2"
     },
     "jsonp": {
@@ -316,8 +316,8 @@
         "security"
       ],
       "env": [],
-      "from": "F:\\vue-study\\koa2\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\vue-study\\koa2\\egg-example\\node_modules\\egg-jsonp",
+      "from": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\vue-study\\koa-demo\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -329,8 +329,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "F:\\vue-study\\koa2\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\vue-study\\koa2\\egg-example\\node_modules\\egg-onerror",
+      "from": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\vue-study\\koa-demo\\node_modules\\egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -340,8 +340,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\vue-study\\koa2\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\vue-study\\koa2\\egg-example\\node_modules\\egg-i18n",
+      "from": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\vue-study\\koa-demo\\node_modules\\egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -351,8 +351,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\vue-study\\koa2\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\vue-study\\koa2\\egg-example\\node_modules\\egg-watcher",
+      "from": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\vue-study\\koa-demo\\node_modules\\egg-watcher",
       "version": "3.0.0"
     },
     "multipart": {
@@ -362,8 +362,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\vue-study\\koa2\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\vue-study\\koa2\\egg-example\\node_modules\\egg-multipart",
+      "from": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\vue-study\\koa-demo\\node_modules\\egg-multipart",
       "version": "2.0.0"
     },
     "development": {
@@ -377,8 +377,8 @@
       "env": [
         "local"
       ],
-      "from": "F:\\vue-study\\koa2\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\vue-study\\koa2\\egg-example\\node_modules\\egg-development",
+      "from": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\vue-study\\koa-demo\\node_modules\\egg-development",
       "version": "2.3.1"
     },
     "schedule": {
@@ -388,8 +388,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\vue-study\\koa2\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\vue-study\\koa2\\egg-example\\node_modules\\egg-schedule",
+      "from": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\vue-study\\koa-demo\\node_modules\\egg-schedule",
       "version": "3.3.0"
     },
     "logrotator": {
@@ -401,8 +401,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\vue-study\\koa2\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\vue-study\\koa2\\egg-example\\node_modules\\egg-logrotator",
+      "from": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\vue-study\\koa-demo\\node_modules\\egg-logrotator",
       "version": "3.0.3"
     },
     "static": {
@@ -412,8 +412,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\vue-study\\koa2\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\vue-study\\koa2\\egg-example\\node_modules\\egg-static",
+      "from": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\vue-study\\koa-demo\\node_modules\\egg-static",
       "version": "2.1.1"
     },
     "view": {
@@ -423,8 +423,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\vue-study\\koa2\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\vue-study\\koa2\\egg-example\\node_modules\\egg-view",
+      "from": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\vue-study\\koa-demo\\node_modules\\egg-view",
       "version": "2.1.0"
     },
     "nunjucks": {
@@ -437,8 +437,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\vue-study\\koa2\\egg-example\\config\\plugin.js",
-      "path": "F:\\vue-study\\koa2\\egg-example\\node_modules\\egg-view-nunjucks",
+      "from": "F:\\vue-study\\koa-demo\\config\\plugin.js",
+      "path": "F:\\vue-study\\koa-demo\\node_modules\\egg-view-nunjucks",
       "version": "2.2.0"
     }
   }
