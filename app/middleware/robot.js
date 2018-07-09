@@ -26,6 +26,7 @@ module.exports = (options, app) => {
       await next();
       ctx.status = 403;
       ctx.message = 'Go away, robot.aaa';
+      // shengliang
     }
   }
 }
