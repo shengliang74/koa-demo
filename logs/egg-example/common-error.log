@@ -314,3 +314,53 @@ hostname: shengliang-pc
 pid: 9916
 hostname: shengliang-pc
 
+2018-07-11 21:49:07,964 ERROR 6152 [-/::1/-/18ms GET /news] nodejs.ReferenceError: retrun is not defined
+    at gzip (F:\vue-study\koa-demo\app\middleware\gzip.js:12:61)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 6152
+hostname: shengliang-pc
+
+2018-07-11 21:57:36,168 ERROR 11964 [-/::1/-/16ms GET /news] nodejs.ReferenceError: retrun is not defined
+    at gzip (F:\vue-study\koa-demo\app\middleware\gzip.js:12:61)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 11964
+hostname: shengliang-pc
+
+2018-07-11 21:57:41,703 ERROR 11964 [-/::1/-/4ms GET /] nodejs.ReferenceError: retrun is not defined
+    at gzip (F:\vue-study\koa-demo\app\middleware\gzip.js:12:61)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 11964
+hostname: shengliang-pc
+
+2018-07-11 21:58:13,658 ERROR 11964 [-/::1/-/2ms GET /news] nodejs.ReferenceError: retrun is not defined
+    at gzip (F:\vue-study\koa-demo\app\middleware\gzip.js:12:61)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 11964
+hostname: shengliang-pc
+
+2018-07-11 21:58:41,012 ERROR 9360 [-/::1/-/17ms GET /news] nodejs.ReferenceError: retrun is not defined
+    at gzip (F:\vue-study\koa-demo\app\middleware\gzip.js:12:61)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 9360
+hostname: shengliang-pc
+
+2018-07-11 22:10:38,559 ERROR 2068 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:616:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 2068
+hostname: shengliang-pc
+

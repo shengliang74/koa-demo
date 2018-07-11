@@ -17,6 +17,9 @@
   "robot": {
     "ua": "F:\\vue-study\\koa-demo\\config\\config.default.js"
   },
+  "compress": {
+    "threshold": "F:\\vue-study\\koa-demo\\config\\config.default.js"
+  },
   "session": {
     "maxAge": "F:\\vue-study\\koa-demo\\node_modules\\egg-session\\config\\config.default.js",
     "key": "F:\\vue-study\\koa-demo\\node_modules\\egg-session\\config\\config.default.js",
@@ -170,6 +173,7 @@
     "dependencies": {
       "egg": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
       "egg-view-nunjucks": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+      "koa-compress": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
       "moment": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {

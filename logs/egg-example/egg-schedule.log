@@ -18,3 +18,11 @@
 2018-07-09 21:25:20,687 INFO 10672 [Timer] F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-10 00:00:01.000
 2018-07-09 21:47:10,834 INFO 7908 [Timer] F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-10 00:00:00.000
 2018-07-09 21:47:10,839 INFO 7908 [Timer] F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-10 00:00:01.000
+2018-07-11 21:49:03,844 INFO 2872 [Timer] F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-12 00:00:00.000
+2018-07-11 21:49:03,846 INFO 2872 [Timer] F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-12 00:00:01.000
+2018-07-11 21:57:28,088 INFO 2068 [Timer] F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-12 00:00:00.000
+2018-07-11 21:57:28,090 INFO 2068 [Timer] F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-12 00:00:01.000
+2018-07-11 22:34:42,572 INFO 5268 [Timer] F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-12 00:00:00.000
+2018-07-11 22:34:42,573 INFO 5268 [Timer] F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-12 00:00:01.000
+2018-07-11 22:38:16,834 INFO 11488 [Timer] F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-12 00:00:00.000
+2018-07-11 22:38:16,834 INFO 11488 [Timer] F:\vue-study\koa-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-12 00:00:01.000

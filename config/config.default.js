@@ -8,12 +8,16 @@ exports.view = {
 exports.news = {
 	pageSize: 5,
 	serverUrl: 'https://hacker-news.firebaseio.com/v0'
-}
+};
 exports.middleware = [
-  'robot'
+  'robot',
+  'compress'
 ];
 exports.robot = {
   ua: [
     /Baiduspider/i,
   ]
+};
+exports.compress = {
+  threshold: 2048
 };
