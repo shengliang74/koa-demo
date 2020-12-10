@@ -21,3 +21,8 @@ exports.robot = {
 exports.compress = {
   threshold: 2048
 };
+exports.mongodb = {
+  dbName: 'dbKoa',
+  host: 'localhost',
+  port: 27017
+}

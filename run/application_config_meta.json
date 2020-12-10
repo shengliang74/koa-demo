@@ -1,270 +1,276 @@
 {
-  "keys": "F:\\vue-study\\koa-demo\\config\\config.default.js",
+  "keys": "D:\\sl\\myCode\\koa-demo\\config\\config.default.js",
   "view": {
-    "defaultViewEngine": "F:\\vue-study\\koa-demo\\config\\config.default.js",
+    "defaultViewEngine": "D:\\sl\\myCode\\koa-demo\\config\\config.default.js",
     "mapping": {
-      ".tpl": "F:\\vue-study\\koa-demo\\config\\config.default.js"
+      ".tpl": "D:\\sl\\myCode\\koa-demo\\config\\config.default.js"
     },
-    "root": "F:\\vue-study\\koa-demo\\node_modules\\egg-view\\config\\config.default.js",
-    "cache": "F:\\vue-study\\koa-demo\\node_modules\\egg-view\\config\\config.local.js",
-    "defaultExtension": "F:\\vue-study\\koa-demo\\node_modules\\egg-view\\config\\config.default.js"
+    "root": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-view\\config\\config.default.js"
   },
   "news": {
-    "pageSize": "F:\\vue-study\\koa-demo\\config\\config.default.js",
-    "serverUrl": "F:\\vue-study\\koa-demo\\config\\config.default.js"
+    "pageSize": "D:\\sl\\myCode\\koa-demo\\config\\config.default.js",
+    "serverUrl": "D:\\sl\\myCode\\koa-demo\\config\\config.default.js"
   },
-  "middleware": "F:\\vue-study\\koa-demo\\config\\config.default.js",
+  "middleware": "D:\\sl\\myCode\\koa-demo\\config\\config.default.js",
   "robot": {
-    "ua": "F:\\vue-study\\koa-demo\\config\\config.default.js"
+    "ua": "D:\\sl\\myCode\\koa-demo\\config\\config.default.js"
   },
   "compress": {
-    "threshold": "F:\\vue-study\\koa-demo\\config\\config.default.js"
+    "threshold": "D:\\sl\\myCode\\koa-demo\\config\\config.default.js"
+  },
+  "mongodb": {
+    "dbName": "D:\\sl\\myCode\\koa-demo\\config\\config.default.js",
+    "host": "D:\\sl\\myCode\\koa-demo\\config\\config.default.js",
+    "port": "D:\\sl\\myCode\\koa-demo\\config\\config.default.js"
   },
   "session": {
-    "maxAge": "F:\\vue-study\\koa-demo\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "F:\\vue-study\\koa-demo\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "F:\\vue-study\\koa-demo\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "F:\\vue-study\\koa-demo\\node_modules\\egg-session\\config\\config.default.js"
+    "maxAge": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-session\\config\\config.default.js"
   },
   "security": {
-    "domainWhiteList": "F:\\vue-study\\koa-demo\\node_modules\\egg-security\\config\\config.default.js",
-    "protocolWhiteList": "F:\\vue-study\\koa-demo\\node_modules\\egg-security\\config\\config.default.js",
-    "defaultMiddleware": "F:\\vue-study\\koa-demo\\node_modules\\egg-security\\config\\config.default.js",
+    "domainWhiteList": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-security\\config\\config.default.js",
     "csrf": {
-      "enable": "F:\\vue-study\\koa-demo\\node_modules\\egg-security\\config\\config.default.js",
-      "useSession": "F:\\vue-study\\koa-demo\\node_modules\\egg-security\\config\\config.default.js",
-      "ignoreJSON": "F:\\vue-study\\koa-demo\\node_modules\\egg-security\\config\\config.default.js",
-      "cookieName": "F:\\vue-study\\koa-demo\\node_modules\\egg-security\\config\\config.default.js",
-      "sessionName": "F:\\vue-study\\koa-demo\\node_modules\\egg-security\\config\\config.default.js",
-      "headerName": "F:\\vue-study\\koa-demo\\node_modules\\egg-security\\config\\config.default.js",
-      "bodyName": "F:\\vue-study\\koa-demo\\node_modules\\egg-security\\config\\config.default.js",
-      "queryName": "F:\\vue-study\\koa-demo\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-security\\config\\config.default.js"
     },
     "xframe": {
-      "enable": "F:\\vue-study\\koa-demo\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "F:\\vue-study\\koa-demo\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-security\\config\\config.default.js"
     },
     "hsts": {
-      "enable": "F:\\vue-study\\koa-demo\\node_modules\\egg-security\\config\\config.local.js",
-      "maxAge": "F:\\vue-study\\koa-demo\\node_modules\\egg-security\\config\\config.default.js",
-      "includeSubdomains": "F:\\vue-study\\koa-demo\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-security\\config\\config.default.js"
     },
     "dta": {
-      "enable": "F:\\vue-study\\koa-demo\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-security\\config\\config.default.js"
     },
     "methodnoallow": {
-      "enable": "F:\\vue-study\\koa-demo\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-security\\config\\config.default.js"
     },
     "noopen": {
-      "enable": "F:\\vue-study\\koa-demo\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-security\\config\\config.default.js"
     },
     "nosniff": {
-      "enable": "F:\\vue-study\\koa-demo\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-security\\config\\config.default.js"
     },
     "referrerPolicy": {
-      "enable": "F:\\vue-study\\koa-demo\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "F:\\vue-study\\koa-demo\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-security\\config\\config.default.js"
     },
     "xssProtection": {
-      "enable": "F:\\vue-study\\koa-demo\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "F:\\vue-study\\koa-demo\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-security\\config\\config.default.js"
     },
     "csp": {
-      "enable": "F:\\vue-study\\koa-demo\\node_modules\\egg-security\\config\\config.default.js",
-      "policy": "F:\\vue-study\\koa-demo\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-security\\config\\config.default.js"
     },
     "ssrf": {
-      "ipBlackList": "F:\\vue-study\\koa-demo\\node_modules\\egg-security\\config\\config.default.js",
-      "checkAddress": "F:\\vue-study\\koa-demo\\node_modules\\egg-security\\config\\config.default.js"
+      "ipBlackList": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-security\\config\\config.default.js"
     }
   },
   "helper": {
-    "shtml": "F:\\vue-study\\koa-demo\\node_modules\\egg-security\\config\\config.default.js"
+    "shtml": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-security\\config\\config.default.js"
   },
   "jsonp": {
-    "limit": "F:\\vue-study\\koa-demo\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "callback": "F:\\vue-study\\koa-demo\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "csrf": "F:\\vue-study\\koa-demo\\node_modules\\egg-jsonp\\config\\config.default.js"
+    "limit": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-jsonp\\config\\config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "F:\\vue-study\\koa-demo\\node_modules\\egg-onerror\\config\\config.default.js",
-    "appErrorFilter": "F:\\vue-study\\koa-demo\\node_modules\\egg-onerror\\config\\config.default.js",
-    "templatePath": "F:\\vue-study\\koa-demo\\node_modules\\egg-onerror\\config\\config.default.js"
+    "errorPageUrl": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-onerror\\config\\config.default.js"
   },
   "i18n": {
-    "defaultLocale": "F:\\vue-study\\koa-demo\\node_modules\\egg-i18n\\config\\config.default.js",
-    "dirs": "F:\\vue-study\\koa-demo\\node_modules\\egg-i18n\\config\\config.default.js",
-    "queryField": "F:\\vue-study\\koa-demo\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieField": "F:\\vue-study\\koa-demo\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieMaxAge": "F:\\vue-study\\koa-demo\\node_modules\\egg-i18n\\config\\config.default.js"
+    "defaultLocale": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-i18n\\config\\config.default.js"
   },
   "watcher": {
-    "type": "F:\\vue-study\\koa-demo\\node_modules\\egg-watcher\\config\\config.local.js",
+    "type": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-watcher\\config\\config.local.js",
     "eventSources": {
-      "default": "F:\\vue-study\\koa-demo\\node_modules\\egg-watcher\\config\\config.default.js",
-      "development": "F:\\vue-study\\koa-demo\\node_modules\\egg-watcher\\config\\config.default.js"
+      "default": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-watcher\\config\\config.default.js"
     }
   },
   "multipart": {
-    "autoFields": "F:\\vue-study\\koa-demo\\node_modules\\egg-multipart\\config\\config.default.js",
-    "defaultCharset": "F:\\vue-study\\koa-demo\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldNameSize": "F:\\vue-study\\koa-demo\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldSize": "F:\\vue-study\\koa-demo\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fields": "F:\\vue-study\\koa-demo\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileSize": "F:\\vue-study\\koa-demo\\node_modules\\egg-multipart\\config\\config.default.js",
-    "files": "F:\\vue-study\\koa-demo\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileExtensions": "F:\\vue-study\\koa-demo\\node_modules\\egg-multipart\\config\\config.default.js",
-    "whitelist": "F:\\vue-study\\koa-demo\\node_modules\\egg-multipart\\config\\config.default.js"
+    "autoFields": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-multipart\\config\\config.default.js"
   },
   "development": {
-    "watchDirs": "F:\\vue-study\\koa-demo\\node_modules\\egg-development\\config\\config.default.js",
-    "ignoreDirs": "F:\\vue-study\\koa-demo\\node_modules\\egg-development\\config\\config.default.js",
-    "fastReady": "F:\\vue-study\\koa-demo\\node_modules\\egg-development\\config\\config.default.js",
-    "reloadOnDebug": "F:\\vue-study\\koa-demo\\node_modules\\egg-development\\config\\config.default.js",
-    "overrideDefault": "F:\\vue-study\\koa-demo\\node_modules\\egg-development\\config\\config.default.js"
+    "watchDirs": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-development\\config\\config.default.js"
   },
   "customLogger": {
     "scheduleLogger": {
-      "consoleLevel": "F:\\vue-study\\koa-demo\\node_modules\\egg-schedule\\config\\config.default.js",
-      "file": "F:\\vue-study\\koa-demo\\node_modules\\egg-schedule\\config\\config.default.js"
+      "consoleLevel": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-schedule\\config\\config.default.js"
     }
   },
   "logrotator": {
-    "filesRotateByHour": "F:\\vue-study\\koa-demo\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "hourDelimiter": "F:\\vue-study\\koa-demo\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "filesRotateBySize": "F:\\vue-study\\koa-demo\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFileSize": "F:\\vue-study\\koa-demo\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFiles": "F:\\vue-study\\koa-demo\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "rotateDuration": "F:\\vue-study\\koa-demo\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxDays": "F:\\vue-study\\koa-demo\\node_modules\\egg-logrotator\\config\\config.default.js"
+    "filesRotateByHour": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-logrotator\\config\\config.default.js"
   },
   "static": {
-    "prefix": "F:\\vue-study\\koa-demo\\node_modules\\egg-static\\config\\config.default.js",
-    "dir": "F:\\vue-study\\koa-demo\\node_modules\\egg-static\\config\\config.default.js",
-    "dynamic": "F:\\vue-study\\koa-demo\\node_modules\\egg-static\\config\\config.default.js",
-    "preload": "F:\\vue-study\\koa-demo\\node_modules\\egg-static\\config\\config.default.js",
-    "buffer": "F:\\vue-study\\koa-demo\\node_modules\\egg-static\\config\\config.default.js",
-    "maxFiles": "F:\\vue-study\\koa-demo\\node_modules\\egg-static\\config\\config.default.js"
+    "prefix": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-static\\config\\config.default.js"
   },
   "nunjucks": {
-    "autoescape": "F:\\vue-study\\koa-demo\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "throwOnUndefined": "F:\\vue-study\\koa-demo\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "trimBlocks": "F:\\vue-study\\koa-demo\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "lstripBlocks": "F:\\vue-study\\koa-demo\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "cache": "F:\\vue-study\\koa-demo\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
+    "autoescape": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "throwOnUndefined": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "trimBlocks": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "lstripBlocks": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "cache": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
   },
-  "env": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-  "name": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-  "proxy": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-  "protocolHeaders": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-  "ipHeaders": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-  "hostHeaders": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+  "env": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+  "name": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
   "pkg": {
-    "name": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-    "version": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-    "description": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-    "main": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+    "name": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+    "version": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+    "description": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+    "main": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
     "scripts": {
-      "dev": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-      "test": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js"
+      "dev": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+      "test": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js"
     },
-    "author": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-    "license": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+    "author": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+    "license": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
-      "egg": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-      "egg-view-nunjucks": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-      "koa-compress": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-      "moment": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js"
+      "egg": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-nunjucks": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+      "koa-compress": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+      "moment": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+      "mongodb": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
-      "egg-bin": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js"
+      "egg-bin": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js"
     }
   },
-  "baseDir": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-  "HOME": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-  "rundir": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+  "baseDir": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
   "dump": {
-    "ignore": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js"
+    "ignore": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-    "notFound": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-    "sitefile": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-    "middlewares": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-    "httpClient": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js"
+    "bodyparser": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js"
   },
   "notfound": {
-    "pageUrl": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js"
+    "pageUrl": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js"
+    "/favicon.ico": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js"
   },
   "bodyParser": {
-    "enable": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-    "formLimit": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-    "jsonLimit": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-    "strict": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+    "enable": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+    "strict": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
     "queryString": {
-      "arrayLimit": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-      "depth": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-      "parameterLimit": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js"
+      "arrayLimit": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+      "depth": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "logger": {
-    "dir": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-    "env": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-    "level": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-    "consoleLevel": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-    "disableConsoleAfterReady": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-    "outputJSON": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-    "buffer": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-    "appLogName": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-    "coreLogName": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-    "agentLogName": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-    "errorLogName": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+    "dir": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+    "env": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+    "level": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
     "coreLogger": {
-      "consoleLevel": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.local.js"
+      "consoleLevel": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.local.js"
     },
-    "allowDebugAtProd": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js"
+    "allowDebugAtProd": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheMaxLength": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheMaxAge": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+    "enableDNSCache": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxAge": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
     "request": {
-      "timeout": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js"
+      "timeout": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketKeepAliveTimeout": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketKeepAliveTimeout": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "meta": {
-    "enable": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-    "logging": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js"
+    "enable": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+    "logging": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js"
   },
-  "coreMiddleware": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-  "workerStartTimeout": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+  "coreMiddleware": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
   "cluster": {
     "listen": {
-      "path": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-      "port": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-      "hostname": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js"
+      "path": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+      "port": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "clusterClient": {
-    "maxWaitTime": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js",
-    "responseTimeout": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js"
+    "maxWaitTime": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js"
   },
-  "onClientError": "F:\\vue-study\\koa-demo\\node_modules\\egg\\config\\config.default.js"
+  "onClientError": "D:\\sl\\myCode\\koa-demo\\node_modules\\egg\\config\\config.default.js"
 }

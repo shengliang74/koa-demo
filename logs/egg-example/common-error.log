@@ -364,3 +364,451 @@ name: 'unhandledExceptionError'
 pid: 2068
 hostname: shengliang-pc
 
+2020-11-30 07:45:10,811 ERROR 10044 [-/127.0.0.1/-/5057ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (D:\sl\myCode\koa-demo\node_modules\urllib\lib\urllib.js:811:15)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: 'ConnectionTimeoutError'
+requestId: 1
+data: undefined
+path: '/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22'
+status: -2
+headers: {}
+res: { status: -2, statusCode: -2, headers: {}, size: 0, aborted: false, rt: 5034, keepAliveSocket: false, data: undefined, requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ], timing: null, remoteAddress: '35.201.97.85', remotePort: '', socketHandledRequests: 1, socketHandledResponses: 0 }
+pid: 10044
+hostname: Lenovo-PC
+
+2020-11-30 07:50:53,555 ERROR 3740 [-/127.0.0.1/-/5052ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (D:\sl\myCode\koa-demo\node_modules\urllib\lib\urllib.js:811:15)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: 'ConnectionTimeoutError'
+requestId: 1
+data: undefined
+path: '/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22'
+status: -2
+headers: {}
+res: { status: -2, statusCode: -2, headers: {}, size: 0, aborted: false, rt: 5035, keepAliveSocket: false, data: undefined, requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ], timing: null, remoteAddress: '35.201.97.85', remotePort: '', socketHandledRequests: 1, socketHandledResponses: 0 }
+pid: 3740
+hostname: Lenovo-PC
+
+2020-11-30 07:52:17,108 ERROR 504 [-/127.0.0.1/-/5128ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (D:\sl\myCode\koa-demo\node_modules\urllib\lib\urllib.js:811:15)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: 'ConnectionTimeoutError'
+requestId: 1
+data: undefined
+path: '/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22'
+status: -2
+headers: {}
+res: { status: -2, statusCode: -2, headers: {}, size: 0, aborted: false, rt: 5084, keepAliveSocket: false, data: undefined, requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ], timing: null, remoteAddress: '35.201.97.85', remotePort: '', socketHandledRequests: 1, socketHandledResponses: 0 }
+pid: 504
+hostname: Lenovo-PC
+
+2020-11-30 07:57:28,243 ERROR 1664 nodejs.MongoNetworkError: failed to connect to server [localhost:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1129:14) {
+  name: 'MongoNetworkError'
+}] (uncaughtException throw 1 times on pid:1664)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1129:14) {
+  name: 'MongoNetworkError'
+}] (uncaughtException throw 1 times on pid:1664)
+    at Pool.<anonymous> (D:\sl\myCode\koa-demo\node_modules\mongodb\lib\core\topologies\server.js:438:11)
+    at Pool.emit (events.js:210:5)
+    at D:\sl\myCode\koa-demo\node_modules\mongodb\lib\core\connection\pool.js:562:14
+    at D:\sl\myCode\koa-demo\node_modules\mongodb\lib\core\connection\pool.js:995:11
+    at D:\sl\myCode\koa-demo\node_modules\mongodb\lib\core\connection\connect.js:32:7
+    at callback (D:\sl\myCode\koa-demo\node_modules\mongodb\lib\core\connection\connect.js:280:5)
+    at Socket.<anonymous> (D:\sl\myCode\koa-demo\node_modules\mongodb\lib\core\connection\connect.js:310:7)
+    at Object.onceWrapper (events.js:300:26)
+    at Socket.emit (events.js:210:5)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+name: 'MongoNetworkError'
+pid: 1664
+hostname: Lenovo-PC
+
+2020-12-06 14:48:22,936 ERROR 13204 nodejs.ClusterClientNoResponseError: client no response in 3107903ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\sl\myCode\koa-demo\node_modules\cluster-client\lib\leader.js:74:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: 'ClusterClientNoResponseError'
+pid: 13204
+hostname: Lenovo-PC
+
+2020-12-06 15:04:15,154 ERROR 12020 nodejs.TypeError: Cannot create property '_id' on string 'shengliang' (uncaughtException throw 1 times on pid:12020)
+    at D:\sl\myCode\koa-demo\node_modules\mongodb\lib\operations\common_functions.js:209:15
+    at Array.map (<anonymous>)
+    at prepareDocs (D:\sl\myCode\koa-demo\node_modules\mongodb\lib\operations\common_functions.js:207:15)
+    at insertDocuments (D:\sl\myCode\koa-demo\node_modules\mongodb\lib\operations\common_functions.js:256:10)
+    at InsertOneOperation.execute (D:\sl\myCode\koa-demo\node_modules\mongodb\lib\operations\insert_one.js:26:5)
+    at executeOperation (D:\sl\myCode\koa-demo\node_modules\mongodb\lib\operations\execute_operation.js:77:17)
+    at Collection.insertOne (D:\sl\myCode\koa-demo\node_modules\mongodb\lib\collection.js:517:10)
+    at D:\sl\myCode\koa-demo\app\dao\db.js:10:40
+    at D:\sl\myCode\koa-demo\node_modules\mongodb\lib\utils.js:677:5
+    at D:\sl\myCode\koa-demo\node_modules\mongodb\lib\mongo_client.js:226:7
+
+pid: 12020
+hostname: Lenovo-PC
+
+2020-12-06 15:07:14,278 ERROR 1728 nodejs.TypeError: Cannot create property '_id' on string 'shengliang' (uncaughtException throw 1 times on pid:1728)
+    at D:\sl\myCode\koa-demo\node_modules\mongodb\lib\operations\common_functions.js:209:15
+    at Array.map (<anonymous>)
+    at prepareDocs (D:\sl\myCode\koa-demo\node_modules\mongodb\lib\operations\common_functions.js:207:15)
+    at insertDocuments (D:\sl\myCode\koa-demo\node_modules\mongodb\lib\operations\common_functions.js:256:10)
+    at InsertOneOperation.execute (D:\sl\myCode\koa-demo\node_modules\mongodb\lib\operations\insert_one.js:26:5)
+    at executeOperation (D:\sl\myCode\koa-demo\node_modules\mongodb\lib\operations\execute_operation.js:77:17)
+    at Collection.insertOne (D:\sl\myCode\koa-demo\node_modules\mongodb\lib\collection.js:517:10)
+    at D:\sl\myCode\koa-demo\app\dao\db.js:10:40
+    at D:\sl\myCode\koa-demo\node_modules\mongodb\lib\utils.js:677:5
+    at D:\sl\myCode\koa-demo\node_modules\mongodb\lib\mongo_client.js:226:7
+
+pid: 1728
+hostname: Lenovo-PC
+
+2020-12-06 15:07:20,621 ERROR 1728 nodejs.TypeError: Cannot create property '_id' on string 'shengliang' (uncaughtException throw 2 times on pid:1728)
+    at D:\sl\myCode\koa-demo\node_modules\mongodb\lib\operations\common_functions.js:209:15
+    at Array.map (<anonymous>)
+    at prepareDocs (D:\sl\myCode\koa-demo\node_modules\mongodb\lib\operations\common_functions.js:207:15)
+    at insertDocuments (D:\sl\myCode\koa-demo\node_modules\mongodb\lib\operations\common_functions.js:256:10)
+    at InsertOneOperation.execute (D:\sl\myCode\koa-demo\node_modules\mongodb\lib\operations\insert_one.js:26:5)
+    at executeOperation (D:\sl\myCode\koa-demo\node_modules\mongodb\lib\operations\execute_operation.js:77:17)
+    at Collection.insertOne (D:\sl\myCode\koa-demo\node_modules\mongodb\lib\collection.js:517:10)
+    at D:\sl\myCode\koa-demo\app\dao\db.js:10:40
+    at D:\sl\myCode\koa-demo\node_modules\mongodb\lib\utils.js:677:5
+    at D:\sl\myCode\koa-demo\node_modules\mongodb\lib\mongo_client.js:226:7
+
+pid: 1728
+hostname: Lenovo-PC
+
+2020-12-06 15:37:52,096 ERROR 11616 nodejs.TypeError: Cannot create property '_id' on string 'shengliang' (uncaughtException throw 1 times on pid:11616)
+    at D:\sl\myCode\koa-demo\node_modules\mongodb\lib\operations\common_functions.js:209:15
+    at Array.map (<anonymous>)
+    at prepareDocs (D:\sl\myCode\koa-demo\node_modules\mongodb\lib\operations\common_functions.js:207:15)
+    at insertDocuments (D:\sl\myCode\koa-demo\node_modules\mongodb\lib\operations\common_functions.js:256:10)
+    at InsertOneOperation.execute (D:\sl\myCode\koa-demo\node_modules\mongodb\lib\operations\insert_one.js:26:5)
+    at executeOperation (D:\sl\myCode\koa-demo\node_modules\mongodb\lib\operations\execute_operation.js:77:17)
+    at Collection.insertOne (D:\sl\myCode\koa-demo\node_modules\mongodb\lib\collection.js:517:10)
+    at D:\sl\myCode\koa-demo\app\dao\db.js:10:40
+    at D:\sl\myCode\koa-demo\node_modules\mongodb\lib\utils.js:677:5
+    at D:\sl\myCode\koa-demo\node_modules\mongodb\lib\mongo_client.js:226:7
+
+pid: 11616
+hostname: Lenovo-PC
+
+2020-12-06 15:40:31,243 ERROR 2692 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 2692
+hostname: Lenovo-PC
+
+2020-12-06 16:42:37,681 ERROR 14656 nodejs.MongoError: collection name must be a String (uncaughtException throw 1 times on pid:14656)
+    at checkCollectionName (D:\sl\myCode\koa-demo\node_modules\mongodb\lib\utils.js:73:11)
+    at new Collection (D:\sl\myCode\koa-demo\node_modules\mongodb\lib\collection.js:100:3)
+    at Db.collection (D:\sl\myCode\koa-demo\node_modules\mongodb\lib\db.js:431:26)
+    at D:\sl\myCode\koa-demo\app\dao\db.js:11:19
+    at D:\sl\myCode\koa-demo\node_modules\mongodb\lib\utils.js:677:5
+    at D:\sl\myCode\koa-demo\node_modules\mongodb\lib\mongo_client.js:226:7
+    at connectCallback (D:\sl\myCode\koa-demo\node_modules\mongodb\lib\operations\connect.js:366:5)
+    at D:\sl\myCode\koa-demo\node_modules\mongodb\lib\operations\connect.js:459:5
+    at Server.connectHandler (D:\sl\myCode\koa-demo\node_modules\mongodb\lib\topologies\server.js:291:9)
+    at Object.onceWrapper (events.js:300:26)
+name: 'MongoError'
+pid: 14656
+hostname: Lenovo-PC
+
+2020-12-06 16:43:48,972 ERROR 2692 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 2692
+hostname: Lenovo-PC
+
+2020-12-06 16:45:21,004 ERROR 11808 nodejs.MongoNetworkError: failed to connect to server [localhost:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1129:14) {
+  name: 'MongoNetworkError'
+}] (uncaughtException throw 1 times on pid:11808)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1129:14) {
+  name: 'MongoNetworkError'
+}] (uncaughtException throw 1 times on pid:11808)
+    at Pool.<anonymous> (D:\sl\myCode\koa-demo\node_modules\mongodb\lib\core\topologies\server.js:438:11)
+    at Pool.emit (events.js:210:5)
+    at D:\sl\myCode\koa-demo\node_modules\mongodb\lib\core\connection\pool.js:562:14
+    at D:\sl\myCode\koa-demo\node_modules\mongodb\lib\core\connection\pool.js:995:11
+    at D:\sl\myCode\koa-demo\node_modules\mongodb\lib\core\connection\connect.js:32:7
+    at callback (D:\sl\myCode\koa-demo\node_modules\mongodb\lib\core\connection\connect.js:280:5)
+    at Socket.<anonymous> (D:\sl\myCode\koa-demo\node_modules\mongodb\lib\core\connection\connect.js:310:7)
+    at Object.onceWrapper (events.js:300:26)
+    at Socket.emit (events.js:210:5)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+name: 'MongoNetworkError'
+pid: 11808
+hostname: Lenovo-PC
+
+2020-12-06 21:58:42,613 ERROR 4396 nodejs.ClusterClientNoResponseError: client no response in 15264457ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\sl\myCode\koa-demo\node_modules\cluster-client\lib\leader.js:74:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: 'ClusterClientNoResponseError'
+pid: 4396
+hostname: Lenovo-PC
+
+2020-12-06 22:10:27,630 ERROR 15132 [-/127.0.0.1/-/21ms GET /news] nodejs.ReferenceError: insertOne is not defined
+    at NewsService.list (D:\sl\myCode\koa-demo\app\service\news.js:8:18)
+    at NewsController.list (D:\sl\myCode\koa-demo\app\controller\news.js:8:43)
+    at Object.callFn (D:\sl\myCode\koa-demo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\sl\myCode\koa-demo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\sl\myCode\koa-demo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\sl\myCode\koa-demo\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\sl\myCode\koa-demo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\sl\myCode\koa-demo\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\sl\myCode\koa-demo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\sl\myCode\koa-demo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+
+pid: 15132
+hostname: Lenovo-PC
+
+2020-12-06 22:10:30,289 ERROR 15132 [-/127.0.0.1/-/3ms GET /news] nodejs.ReferenceError: insertOne is not defined
+    at NewsService.list (D:\sl\myCode\koa-demo\app\service\news.js:8:18)
+    at NewsController.list (D:\sl\myCode\koa-demo\app\controller\news.js:8:43)
+    at Object.callFn (D:\sl\myCode\koa-demo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\sl\myCode\koa-demo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\sl\myCode\koa-demo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\sl\myCode\koa-demo\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\sl\myCode\koa-demo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\sl\myCode\koa-demo\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\sl\myCode\koa-demo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\sl\myCode\koa-demo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+
+pid: 15132
+hostname: Lenovo-PC
+
+2020-12-08 09:03:14,005 ERROR 10880 [-/127.0.0.1/-/142ms GET /news] nodejs.Error: Response {
+  parsed: true,
+  raw: <Buffer 38 00 00 00 01 00 00 00 02 00 00 00 01 00 00 00 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 14 00 00 00 10 6f 6b 00 01 00 00 00 10 6e ... 6 more bytes>,
+  data: <Buffer 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 14 00 00 00 10 6f 6b 00 01 00 00 00 10 6e 00 01 00 00 00 00>,
+  bson: BSON {},
+  opts: [Object],
+  length: 56,
+  requestId: 1,
+  responseTo: 2,
+  opCode: 1,
+  fromCompressed: undefined,
+  responseFlags: 8,
+  cursorId: [Long],
+  startingFrom: 0,
+  numberReturned: 1,
+  documents: [Array],
+  cursorNotFound: false,
+  queryFailure: false,
+  shardConfigStale: false,
+  awaitCapable: true,
+  promoteLongs: true,
+  promoteValues: true,
+  promoteBuffers: false,
+  index: 40,
+  hashedName: '29bafad3b32b11dc7ce934204952515ea5984b3c'
+}
+    at Object.app.context.onerror (D:\sl\myCode\koa-demo\node_modules\koa-onerror\index.js:34:24)
+    at onerror (D:\sl\myCode\koa-demo\node_modules\koa\lib\application.js:147:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 10880
+hostname: Lenovo-PC
+
+2020-12-08 09:04:08,391 ERROR 10880 [-/127.0.0.1/-/16ms GET /news] nodejs.Error: Response {
+  parsed: true,
+  raw: <Buffer 38 00 00 00 03 00 00 00 04 00 00 00 01 00 00 00 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 14 00 00 00 10 6f 6b 00 01 00 00 00 10 6e ... 6 more bytes>,
+  data: <Buffer 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 14 00 00 00 10 6f 6b 00 01 00 00 00 10 6e 00 01 00 00 00 00>,
+  bson: BSON {},
+  opts: [Object],
+  length: 56,
+  requestId: 3,
+  responseTo: 4,
+  opCode: 1,
+  fromCompressed: undefined,
+  responseFlags: 8,
+  cursorId: [Long],
+  startingFrom: 0,
+  numberReturned: 1,
+  documents: [Array],
+  cursorNotFound: false,
+  queryFailure: false,
+  shardConfigStale: false,
+  awaitCapable: true,
+  promoteLongs: true,
+  promoteValues: true,
+  promoteBuffers: false,
+  index: 40,
+  hashedName: '29bafad3b32b11dc7ce934204952515ea5984b3c'
+}
+    at Object.app.context.onerror (D:\sl\myCode\koa-demo\node_modules\koa-onerror\index.js:34:24)
+    at onerror (D:\sl\myCode\koa-demo\node_modules\koa\lib\application.js:147:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 10880
+hostname: Lenovo-PC
+
+2020-12-08 09:04:50,192 ERROR 10880 [-/127.0.0.1/-/17ms GET /news] nodejs.Error: Response {
+  parsed: true,
+  raw: <Buffer 38 00 00 00 13 00 00 00 06 00 00 00 01 00 00 00 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 14 00 00 00 10 6f 6b 00 01 00 00 00 10 6e ... 6 more bytes>,
+  data: <Buffer 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 14 00 00 00 10 6f 6b 00 01 00 00 00 10 6e 00 01 00 00 00 00>,
+  bson: BSON {},
+  opts: [Object],
+  length: 56,
+  requestId: 19,
+  responseTo: 6,
+  opCode: 1,
+  fromCompressed: undefined,
+  responseFlags: 8,
+  cursorId: [Long],
+  startingFrom: 0,
+  numberReturned: 1,
+  documents: [Array],
+  cursorNotFound: false,
+  queryFailure: false,
+  shardConfigStale: false,
+  awaitCapable: true,
+  promoteLongs: true,
+  promoteValues: true,
+  promoteBuffers: false,
+  index: 40,
+  hashedName: '29bafad3b32b11dc7ce934204952515ea5984b3c'
+}
+    at Object.app.context.onerror (D:\sl\myCode\koa-demo\node_modules\koa-onerror\index.js:34:24)
+    at onerror (D:\sl\myCode\koa-demo\node_modules\koa\lib\application.js:147:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 10880
+hostname: Lenovo-PC
+
+2020-12-08 09:04:52,573 ERROR 10880 [-/127.0.0.1/-/14ms GET /news] nodejs.Error: Response {
+  parsed: true,
+  raw: <Buffer 38 00 00 00 15 00 00 00 08 00 00 00 01 00 00 00 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 14 00 00 00 10 6f 6b 00 01 00 00 00 10 6e ... 6 more bytes>,
+  data: <Buffer 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 14 00 00 00 10 6f 6b 00 01 00 00 00 10 6e 00 01 00 00 00 00>,
+  bson: BSON {},
+  opts: [Object],
+  length: 56,
+  requestId: 21,
+  responseTo: 8,
+  opCode: 1,
+  fromCompressed: undefined,
+  responseFlags: 8,
+  cursorId: [Long],
+  startingFrom: 0,
+  numberReturned: 1,
+  documents: [Array],
+  cursorNotFound: false,
+  queryFailure: false,
+  shardConfigStale: false,
+  awaitCapable: true,
+  promoteLongs: true,
+  promoteValues: true,
+  promoteBuffers: false,
+  index: 40,
+  hashedName: '29bafad3b32b11dc7ce934204952515ea5984b3c'
+}
+    at Object.app.context.onerror (D:\sl\myCode\koa-demo\node_modules\koa-onerror\index.js:34:24)
+    at onerror (D:\sl\myCode\koa-demo\node_modules\koa\lib\application.js:147:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 10880
+hostname: Lenovo-PC
+
+2020-12-08 09:06:15,510 ERROR 8164 [-/127.0.0.1/-/131ms GET /news] nodejs.Error: Response {
+  parsed: true,
+  raw: <Buffer 38 00 00 00 1b 00 00 00 02 00 00 00 01 00 00 00 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 14 00 00 00 10 6f 6b 00 01 00 00 00 10 6e ... 6 more bytes>,
+  data: <Buffer 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 14 00 00 00 10 6f 6b 00 01 00 00 00 10 6e 00 01 00 00 00 00>,
+  bson: BSON {},
+  opts: [Object],
+  length: 56,
+  requestId: 27,
+  responseTo: 2,
+  opCode: 1,
+  fromCompressed: undefined,
+  responseFlags: 8,
+  cursorId: [Long],
+  startingFrom: 0,
+  numberReturned: 1,
+  documents: [Array],
+  cursorNotFound: false,
+  queryFailure: false,
+  shardConfigStale: false,
+  awaitCapable: true,
+  promoteLongs: true,
+  promoteValues: true,
+  promoteBuffers: false,
+  index: 40,
+  hashedName: '29bafad3b32b11dc7ce934204952515ea5984b3c'
+}
+    at Object.app.context.onerror (D:\sl\myCode\koa-demo\node_modules\koa-onerror\index.js:34:24)
+    at onerror (D:\sl\myCode\koa-demo\node_modules\koa\lib\application.js:147:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 8164
+hostname: Lenovo-PC
+
+2020-12-08 09:08:08,979 ERROR 11124 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 11124
+hostname: Lenovo-PC
+
+2020-12-08 09:10:22,993 ERROR 11124 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 11124
+hostname: Lenovo-PC
+
+2020-12-08 09:13:58,758 ERROR 11124 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 11124
+hostname: Lenovo-PC
+
+2020-12-08 09:14:01,029 ERROR 11124 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 11124
+hostname: Lenovo-PC
+
+2020-12-08 09:16:13,646 ERROR 11124 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 11124
+hostname: Lenovo-PC
+
+2020-12-08 09:16:15,596 ERROR 11124 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 11124
+hostname: Lenovo-PC
+

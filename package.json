@@ -13,7 +13,8 @@
     "egg": "^2.9.1",
     "egg-view-nunjucks": "^2.2.0",
     "koa-compress": "^3.0.0",
-    "moment": "^2.22.2"
+    "moment": "^2.22.2",
+    "mongodb": "^3.6.3"
   },
   "devDependencies": {
     "egg-bin": "^4.7.1"
